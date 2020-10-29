@@ -17,5 +17,5 @@ Languages used:
 
 Modules:
 ---------------------------------------
-1. Django
-2. PyQt5
+1. Flask
+2. Tkinter
