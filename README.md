@@ -14,9 +14,18 @@ Features:
 
 Languages used:
 --------------------------------------
-1. Python 3
+1. Python 3 (For the Notepad, Calendar, AI and Lang Back-end)
+2. HTML
+3. CSS
 
 Modules:
 ---------------------------------------
 1. Flask
 2. Tkinter
+3. Google (For AI)
+4. Wikipedia (For AI)
+
+Databases:
+----------------------------------------
+1. SQLite
+2. Mongo DB
