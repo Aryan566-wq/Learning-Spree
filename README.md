@@ -14,7 +14,7 @@ Features:
 
 Languages used:
 --------------------------------------
-1. Python 3 (For the Notepad, Calendar, AI and Lang Back-end)
+1. Python 3 (For the Notepad, Calendar, AI, To-Do app and Lang Back-end which was used for the website)
 2. HTML (Lang Front-end)
 3. CSS (Lang Front-end)
 
