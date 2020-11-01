@@ -14,7 +14,7 @@ Features:
 
 Languages used:
 --------------------------------------
-1. Python 3 (For the Notepad, Calendar, AI, To-Do app and Lang Back-end which was used for the website)
+1. Python 3 (For the Notepad, Calendar, AI, To-Do app and Lang Back-end which was used for the website) 
 2. HTML (Lang Front-end)
 3. CSS (Lang Front-end)
 
@@ -24,12 +24,21 @@ Modules:
 2. Tkinter (For the Calendar and Notepad)
 3. Wikipedia (For AI)
 4. webbrowser (For AI)
-5. Stackoverflow (For AI)
-6. pyttsx3 (For AI)
-7. cv2 (For AI Document Scanner)
-8. numpy (For AI Document Scanner)
+5. pyttsx3 (For AI)
+6. cv2 (For AI Document Scanner)
+7. numpy (For AI Document Scanner)
 
 Databases:
 ----------------------------------------
 1. SQLite
 2. Mongo DB
+
+Installation of Modules:
+---------------------------------------------
+1. Flask: pip install Flask
+2. Tkinter: In-built module
+3. Wikipedia: pip install wikipedia
+4. webbrowser: In-built module
+5. pyttsx3: pip install pyttsx3
+6. cv2: pip install cv2
+7. numpy: pip install numpy
