@@ -22,8 +22,12 @@ Modules:
 ---------------------------------------
 1. Flask (For the Lang Back-end)
 2. Tkinter (For the Calendar and Notepad)
-3. Google (For AI)
-4. Wikipedia (For AI)
+3. Wikipedia (For AI)
+4. webbrowser (For AI)
+5. Stackoverflow (For AI)
+6. pyttsx3 (For AI)
+7. cv2 (For AI Document Scanner)
+8. numpy (For AI Document Scanner)
 
 Databases:
 ----------------------------------------
