@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statidc/main.css">
+    <style>
+body{
+    background-color: #252525;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #929294;
+}
+@media only screen and (max-width: 700px) {
+  nav{
+      font-size: 10px;
+  }
+}
+
+.nav-logo{
+    padding-left: 30px;
+    flex: 3;
+}
+.spacer{
+    flex: 2;
+}
+.nav-tabs{
+    flex: 6;
+    align-items: center;
+    display: flex;
+}
+.nav-img{
+    padding-left: 30px;
+    flex: 1;
+    justify-content: center;
+}
+.nav-img-img{
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top:15px;
+}
+.nav-tabs-items{
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.nav-img-text{
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+.snav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
+    color: whitesmoke;
+    height: 90vh;
+    width: 150px;    
+    background-color: rgb(87, 17, 153);
+}
+.snav-ntpd{
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+}
+.snav-classlist{
+    height: 700px;
+    width: 130px;
+    background-color:#4b4b4b;
+}
+.upper-spacing-for-snav{
+    padding-top: 20px;
+}
+main{
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 90px;
+    left: 200px;
+    width: 80%;
+    height: 600px;  
+}
+@media only screen and (max-width: 1000px) {
+  main {
+    width: 60%;
+  }
+}
+
+.water-mark{
+    opacity:0.004;
+    font-size: 2000%;
+    z-index:99;
+    position: absolute;
+    bottom: 100px;
+    
+    color:white;
+}
+@media only screen and (max-width: 1000px) {
+  .grit{
+    flex-direction: column;
+    border: 2px solid springgreen;
+  }
+}
+
+.water-mark:hover{
+    opacity: 0.009;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #252525;
+    border: 1px inset rgb(95, 95, 95);
+}
+::-webkit-scrollbar-button{
+    background-color: rgb(255, 153, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+    width: 1px;
+}
+.containmain{
+    z-index: 1000000;
+}
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #57b846;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+.txt1 {
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #999999;
+}
+
+.txt2 {
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+
+
+.home-img-land{
+  width:100%;
+  height: 80vh;
+  z-index: -1;
+}
+.home-img-cover{
+  position: absolute;
+  width:100%;
+  height: 80vh;
+  top: 20px;
+  z-index: 10;
+}
+.account-settings{
+  width: 1300px;
+  height: 600px;
+  padding: 50px;
+  padding-left: 40px;
+  background-color: #0A0A0A;
+}
+.acc-blob{
+  width: 247px;
+  height: 228px;
+}
+.acc-main_img{
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+.acc-email{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 320px;
+  top: 90px;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 200;
+}
+.acc-password{
+  color: #FF0066;
+  position: absolute;
+  top: 190px;
+  left: 320px;
+  font-weight: 200;
+  font-size: 40px;
+}
+.acc-edit{
+  padding-left: 50px;
+  position: absolute;
+  right: 80px;
+  top: 260px;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  text-align:right;
+  background-color: #FF0066;
+}
+.acc-linebreak{
+  border-top: 3px solid #3C009D;
+  margin-top: 30px;
+}
+.ngm{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ngbg{
+  height: 400px;
+  width: 800px;
+}
+.ngmat{
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  font-size: 60px;
+}
+.ngh{
+  position: absolute;
+  top: 20px;
+  left: 350px;
+  width: 700px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+.grit {
+  display: flex;
+  width: 80%;
+  height: 15%;
+  border-bottom:  1px solid aqua;
+  border-right: 1px solid springgreen;
+  margin: 10px;
+}
+.grip{
+  flex: 1;
+  width: 100px;
+  height: 150px;
+}
+.gripi{
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+  border-radius: 1000%;
+}
+.grmb{
+  flex: 5;
+  padding: 30px;
+
+}
+.form-control{
+  background-color: #3b3b3b ;
+  width: 600px;
+  color: white;
+  margin-left: 30px;
+  border-bottom:3px solid  #747373;
+}
+@media only screen and (max-width: 800px) {
+  .form-control {
+    width: 300px;
+  }
+}
+
+.is-invalid{
+  background-color:rgb(54, 54, 54);
+}
+.form-control:hover{
+  background-color: #686868;
+}
+.form-group{
+  border: none;
+
+}
+.btn{
+  width: 100px;
+  height: 20px;
+  background-color: rgb(177, 177, 177);
+}
+/*@media only screen and (max-width: 600px) {
+  body{
+    display: none;
+  }
+}*/
+.npd_dnld{
+  text-align: center;
+  padding-top: 00px;
+  height: 600px;
+  width: 600px;
+  text-align: center;
+}
+.favicon{
+  animation: 2s favicon ease-in-out infinite;
+  filter: hue-rotate(106deg);
+}
+@keyframes favicon {
+  0%{
+    -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg);
+  }
+  80%{
+    -ms-transform: rotate(360deg); /* IE 9 */
+  transform: rotate(360deg);
+  }
+  100%{
+    -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg);
+  }
+}
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <title>SPARK</title>
+    <link rel="shortcut icon" type="image/png" href="/static/favicon.png" class="favicon">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <h2 class="logo-text">SPARK</h2>
+        </div>
+        <div class="nav-tabs">
+            {% if not current_user.is_authenticated %}
+            <a href="/login" class="nav-tabs-items">Login</a>
+            <a href="/register" class="nav-tabs-items">Register</a>
+            {% endif %}
+            {% if current_user.is_authenticated %}
+            <a href="/group/join" class="nav-tabs-items">Join</a>
+            <a href="/group" class="nav-tabs-items">Group</a>
+            <a href="/new/group" class="nav-tabs-items">New Group</a>
+            <a href="/post/new" class="nav-tabs-items">New Post</a>
+
+            <a href="/logout" class="nav-tabs-items">Logout</a>
+            {% endif %}
+        </div>
+        <div class="spacer"></div>
+        {% if current_user.is_authenticated %}
+        <div class="nav-img">
+            <img src=/static/profile_pics/default.jpg alt="img" class="nav-img-img" height=30 width=30>
+            <a href="/account"><h6 class="nav-img-text">{{ current_user.email }}</h6></a>
+        </div>
+        {% endif %}
+    </nav>
+    <div class="snav">
+        <br>
+        <h2 class="snav-ntpd">NOTEPAD</h2>
+        <h2 class="snav-ntpd">CALENDAR</h2>
+        <div class="snav-classlist">
+            <h2 class="upper-spacing-for-snav"></h2>
+            <a href="/main-join"><h2 class="snav-ntpd">MAIN</h2></a>
+            <a href="/code-join"><h2 class="snav-ntpd">CODE</h2></a>
+            <a href="/sci-join"><h2 class="snav-ntpd">SCI</h2></a>
+        </div>
+    </div>
+    <main>
+        <div class="contentmain">
+        {% block content%}{% endblock content %}
+        </div>
+    </main>
+  </body>
+</html>

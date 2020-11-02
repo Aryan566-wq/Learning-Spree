@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="grgn">{{ name }}</h1>
+<br><br>
+    <h1>Posts</h1>
+    
+    {% for post in posts %}
+
+        <article class="grit">
+          <div class="grip">
+          <img class="gripi" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}">
+        </div>
+          <div class="grmb">
+            <div class="article-metadata">
+              <h5 class="mr-2" >{{ post.author.email }}</h5>
+              <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
+            </div>
+            <h2><h2 class="article-title" >{{ post.title }}</hr></h2>
+            <p class="article-content">{{ post.content }}</p>
+          </div>
+        </article>
+
+    {% endfor %}
+{% endblock content %}
