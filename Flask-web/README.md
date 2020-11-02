@@ -11,11 +11,16 @@ What is this website made for?
 -----------------------------------------
 1. This code is made for the TWT code jam tournament. 
 
-Who is this website for:
+Who is this website for?
 -----------------------------------------
 1. As for the Code jam theme "For Students" we have made this student friendly with tons of useful features for students to use in their academic life.
 
-What features does this website have:
+What Databases were used?
+--------------------------------------------
+1. SQLite
+2. Mongo DB
+
+What features does this website have?
 -----------------------------------------
 This website is very student friendly.
 The website's features are below:
