@@ -5,12 +5,16 @@ This is a Google-Classroom-clone...
 
 Features:
 -----------------------------------------
-1. In-Built Notepad.
-2. In-Built Calendar.
-3. People can collaborate in groups using it.
-4. Students can schedule their stuff.
-5. In-Built AI assistant.
-6. In-Built To-Do app in the calendar.
+This website is very student friendly. The website's features are below:
+
+1. An In-built Notepad for students to jot down notes etc..
+2. An In-built calendar for scheduling plans etc.
+3. An In-built To-Do app for keeping things scheduled and on track.
+4. The Calendar and To-Do app are connected to make scheduling easier with a reminder and information.
+5. People can chat with each other in groups and even send files of any type.
+6. An AI assistant called "Karen" will help you get information from the web.
+7. An AI document scanner that will make document scanning easier.
+8. Once you schedule reminders and stuff using the To-Do app and Calendar you will recieve an Email from the website.
 
 Languages used:
 --------------------------------------
