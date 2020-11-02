@@ -21,7 +21,7 @@ Languages used:
 Modules:
 ---------------------------------------
 1. Flask (For the Lang Back-end)
-2. Tkinter (For the Calendar and Notepad)
+2. Tkinter (For Todolist, Notepad and Calendar)
 3. Wikipedia (For AI)
 4. webbrowser (For AI)
 5. pyttsx3 (For AI)
