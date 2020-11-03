@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="account-settings">
+    <img src="static/Vector.svg" alt="" class="acc-blob">
+    <img src="{{ url_for('static', filename='profile_pics/' + current_user.image_file) }}" alt="" class="acc-main_img">
+    <h1 class="acc-email">{{ current_user.email }}</h1>
+    <h3 class="acc-password">{{ current_user.password }}</h3>
+    <a href="account/edit" class="acc-edit">EDIT</a>
+    <div class="acc-linebreak"></div>
+</div>
+{% endblock content %}
