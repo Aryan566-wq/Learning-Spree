@@ -1,0 +1,4 @@
+The Document scanner AI was to large for the repositry to store (Limit 25 MB) Document scanner: 118 MB
+We have added the link of the Google Drive from where you can install it.
+
+https://drive.google.com/file/d/14M69ubDMifK1Bt9oUjsODjn--meHcFSr/view?usp=sharing
