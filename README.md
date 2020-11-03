@@ -1,9 +1,15 @@
-# Google-Classroom-Clone
+# Learning Spree
 -----------------------------------
 
-This is a Google-Classroom-clone...
+Short Description:
+--------------------------------------------------
+1. Productivity is a key feature of a person. It dictates how fast you can work and what feelings we contact while doing it. Productivity is what many students lack. And with good reason to do so! Our imagination is out of the roof, but we need productivity sometimes and this is an assemblage of tools to help you reach a new level of productivity. It includes a To-Do App that allows you to list out what you're going to do today and for days afterward. A Calendar for similar purposes. A sleek streamlined notepad that is lightweight but classy. A website that allows you to join groups and share information. An Assistant for multi-purpose use and finally, a Document Scanner with a ton of cool features.  
 
-1. **Note: This project repository idea is originally made by the collaborators of this repository. No code from this repository is copied, stolen or cloned from any website or any other place.**
+Please Upvote this product and feel free to give us suggestions at projectsubmissionz@gmail.com 
+
+**Note:**
+----------------------------------------------------
+1. **This project repository idea is originally made by the collaborators of this repository. No code from this repository is copied, stolen or cloned from any website or any other place.**
 
 Features:
 -----------------------------------------
