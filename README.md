@@ -3,7 +3,7 @@
 
 This is a Google-Classroom-clone...
 
-1. **Note: This project repository idea is originally made by the collaboraters of this repository. No code from this repository is copied, stolen or cloned from any website or any other place.**
+1. **Note: This project repository idea is originally made by the collaborators of this repository. No code from this repository is copied, stolen or cloned from any website or any other place.**
 
 Features:
 -----------------------------------------
