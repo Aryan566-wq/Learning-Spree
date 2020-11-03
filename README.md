@@ -16,7 +16,7 @@ This website is very student friendly. The website's features are below:
 5. People can chat with each other in groups and even send files of any type.
 6. An AI assistant called "Karen" will help you get information from the web.
 7. An AI document scanner that will make document scanning easier.
-8. Once you schedule reminders and stuff using the To-Do app and Calendar you will recieve an Email from the website.
+8. Once you schedule reminders and stuff using the To-Do app and Calendar, you will receive an Email from the website.
 
 Languages used:
 --------------------------------------
