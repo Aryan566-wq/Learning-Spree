@@ -2,6 +2,7 @@
 -----------------------------------
 
 This is a Google-Classroom-clone...
+**Note: This project, repository, idea is originally made by the commiters of this repository. No code from this repository is copied or cloned from any website.**
 
 Features:
 -----------------------------------------
