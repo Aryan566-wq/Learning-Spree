@@ -10,6 +10,15 @@ Short Description:
 1. Productivity is a key feature of a person. It dictates how fast you can work and what feelings we contact while doing it. Productivity is what many students lack. And with good reason to do so! Our imagination is out of the roof, but we need productivity sometimes and this is an assemblage of tools to help you reach a new level of productivity. It includes a To-Do App that allows you to list out what you're going to do today and for days afterward. A Calendar for similar purposes. A sleek streamlined notepad that is lightweight but classy. A website that allows you to join groups and share information. An Assistant for multi-purpose use and finally, a Document Scanner with a ton of cool features.  
 
    Please Upvote this product and feel free to give us suggestions at projectsubmissionz@gmail.com 
+ 
+ Setup:
+ ---------------------------------------------------------
+ 1. Open the Blogging App Folder.
+ 2. Find the run.py file and run it.
+ 3. Make sure you'll have the required modules installed.
+ 4. After running the run.py file the website should open.
+ 5. To use the Notepad, To-Do app, Calendar and Doc Scanner make sure you'll install the ".exe" files from the exe files folder.
+ 6. After installations you will be able to use Learning Spree..
 
 **Note:**
 ----------------------------------------------------
